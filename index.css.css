@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* { /* configurações globais de css*/
+height: 100;
+}
+
+body{
+    /* no background imaaaaaaaaage existem as funções linear-gradient e radial-gradient(circle...) */
+
+    background-image: linear-gradient(to right, #3198e2,#6d59c0,#b93590,#e33f5f,#fdd579 );
+        text-align: justify;
+
+
+}
+h1 {
+    color: bisque;
+}
+h2{
+    color: bisque;
+}
+h3{
+    color: bisque;
+}
+h4{
+    color: bisque;
+}
+p{
+    color: blanchedalmond;
+}

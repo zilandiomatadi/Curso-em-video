@@ -1,0 +1,45 @@
+@charset "UTF-8"
+
+ * {
+    font-family:sans-serif;
+}
+body{
+    background-image: linear-gradient(to right, rgba(206, 57, 169, 0.801),rgb(226, 226, 132) ,pink);
+}
+main {
+    background-color: rgb(226, 226, 132);
+    border-radius: 10px;
+    box-shadow: 10px,10px,10px,rgb(20, 16, 18);
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+ /*shorthand=mãozinha engloba 4 funções de uma só vez,com a seguinte ordem: font-style-font-weight-font-size-font-family */
+ 
+ h1, h2, h3 {
+    font: italic 800 2em sans-serif
+    
+ }
+h1#principal{
+    text-align: center;
+    background-color: bisque;
+    color: aliceblue;
+}
+
+.basico{
+    background-color: #fffffc;
+    color:pink;
+}
+.intermediario{
+    background-color: #fffffc;
+    color: pink;
+}
+.avancado{
+    background-color: #fffffc;
+    color: pink;
+}
+.destaque{
+    background-color: bisque;
+    color: black;
+}
